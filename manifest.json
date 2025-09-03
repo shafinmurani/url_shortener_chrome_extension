@@ -1,0 +1,21 @@
+{
+  "name": "Shorten by Shafin",
+  "version": "1.0",
+  "description": "Right-click any link or page to shorten it with Shorten",
+  "manifest_version": 3,
+  "permissions": [
+    "contextMenus",
+    "scripting",
+    "notifications",
+    "clipboardWrite",
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
